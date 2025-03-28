@@ -143,7 +143,7 @@ footer, ul.site-contact > li > strong, ul.site-contact > li > a, .site-contact >
 
 /* Landing */
 section.landing {
-    background-image: url(/assets/png/pexels-borja-lopez-1346154.jpg);
+    background-image: url(assets/png/landingimage.jpg);
     background-color: var(--bg-color-B);
     background-position: center;
     background-repeat: no-repeat;
