@@ -1,0 +1,65 @@
+title: "Nathan Hillger"
+titlecaps: "Game Developer"
+inMaintenance: false
+contact:
+    name: "Nathan Hillger"
+    email: "hillgernate@gmail.com"
+
+    github:
+        tag: "@hillnat"
+        url: "https://github.com/hillnat"
+webhost:
+    name: "Github Pages"
+    url: "https://pages.github.com/"
+
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            layout: "default"
+            class: all
+    -
+        scope:
+            path: ""
+            type: "pages"
+        values:
+            layout: "default"
+            class: page
+    -
+        scope:
+            path: "_posts/"
+            type: "posts"
+        values:
+            layout: "post"
+            title: "Project"
+            class: post
+
+            project:
+                cover: /assets/png/placeholder_cover.png
+                developer: "~Developer"
+                publisher: "~Publisher"
+                screenshots: [/assets/png/placeholder_FHD.png]
+
+            stores:
+
+                -
+                    tags: "github"
+                    text: "GitHub"
+                    icon: ""
+                    url: "https://github.com"
+                -
+                    tags: "steam"
+                    text: "Steam"
+                    icon: ""
+                    url: "https://store.steampowered.com"
+                -
+                    tags: "epicgames"
+                    text: "Epic Games"
+                    icon: ""
+                    url: "https://www.epicgames.com/"
+                -
+                    tags: "itch"
+                    text: "itch.io"
+                    icon: ""
+                    url: "https://itch.io/"
