@@ -192,6 +192,7 @@ section.project-listing-darkened {
 }
 section.project-listing {
     display: flex;
+	font-size:20px;
 }
 section.project-listing > img {
     margin-bottom: auto;
@@ -231,6 +232,10 @@ section.project-info {
     min-height: 30vh;
     display: flex;
     gap: 20px;
+	font-size:20px;
+}
+.project-description{
+	font-size: 22px;
 }
 section.project-info > img {
     display: block;
