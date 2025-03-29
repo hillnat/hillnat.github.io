@@ -7,8 +7,8 @@
     --bg-color-B-border: rgb(54, 58, 60);
     --color-A: rgb(179, 179, 179);
     --color-A-shaded: rgb(207, 207, 207);
-    --color-B: rgb(200, 200, 252);
-    --color-B-hover: rgb(45, 86, 166);
+    --color-B: rgb(150, 150, 202);
+    --color-B-hover: rgb(100, 100, 152);
 }
 * {
     color: var(--color-A);
