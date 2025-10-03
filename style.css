@@ -245,6 +245,7 @@ section.project-info {
 }
 .project-description{
 	font-size: 22px;
+	line-height:32px;
 }
 section.project-info > img {
     display: block;
